@@ -4,7 +4,7 @@ const IsogramFinder = function (word) {
 
 IsogramFinder.prototype.isIsogram = function () {
     isUnique = this.word.every((letter, index) => {
-        return index === this.word.findIndex((first)=> first===letter);
+        return index === this.word.findIndex((first) => first===letter);
     });
     return isUnique;
 }

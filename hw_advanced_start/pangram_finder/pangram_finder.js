@@ -11,9 +11,3 @@ PangramFinder.prototype.isPangram = function () {
 };
 
 module.exports = PangramFinder;
-
-
-let pangram = "the quick brown fox jumps over the lazy dog";
-const pgFinder = new PangramFinder(pangram);
-
-console.log(pgFinder.isPangram())

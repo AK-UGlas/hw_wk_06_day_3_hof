@@ -15,7 +15,7 @@ AnagramFinder.prototype.findAnagrams = function(otherWords) {
 AnagramFinder.prototype.sortWord = function(word) {
     // make the word lowercase, split into a character array, sort it (ascending or descending doesnt matter), 
     // then join the letters again to make a sorted string. 
-    return word.toLowerCase().split("").sort().join("");
+    return word.toLowerCase().split('').sort().join('');
 }
 
 module.exports = AnagramFinder;
